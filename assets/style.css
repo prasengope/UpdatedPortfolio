@@ -15,4 +15,7 @@ img {
     .tab{
         display: none;
     }
+    .font-div{
+        width: 20%;
+    }
 }
