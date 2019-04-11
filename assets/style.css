@@ -1,27 +1,34 @@
-.bg-black{
-    background: black;
+.bg-black {
+	background: black;
 }
 
-.font-div{
-    width: 25%;
+.font-div {
+	width: 25%;
 }
 
-img{
-    width: 100%;
-    height: 100%;
+img {
+	width: 100%;
+	height: 100%;
 }
 
-  /* @media only screen and (max-width: 768px) {
-    .font-div {
-        margin-right: -1px;
-        width: 26%;
-    } */
+/* /* @media only screen and (max-width: 768px) { */
+.font-div {
+	/* margin-right: -1px; */
+	width: 26%;
+}
 
-    /* .icon{
-        margin-right: -10px;
-    } */
+.icon {
+	margin-right: -8px;
+}
 
-    /* #myName{
+/* #myName{
         width: 100%;
     }
 } */
+
+@media only screen and (max-width: 768px) {
+	.font-div {
+		display: flex;
+		align-items: center;
+	}
+}
