@@ -12,27 +12,34 @@ img {
 }
 
 /* /* @media only screen and (max-width: 768px) { */
-.font-div {
+/* .font-div {
 	/* margin-right: -1px; */
-	width: 26%;
-}
+/* width: 26%;
+} */
 
-.icon {
+/* .icon {
 	margin-right: -8px;
-}
+} */
 
 /* #myName{
         width: 100%;
     }
 } */
 
-@media only screen and (max-width: 768px) {
-	.font-div {
-		display: flex;
-		align-items: center;
+@media (max-width: 576px) {
+	.tab {
+		display: none;
+	}
+}
+/* display: flex; */
+/* align-items: center; */
+/* align-content: space-between;
+        align-items: center;
+        box-align: center;
     }
     
-    .tab{
-        display: none;
+
+    .icon{
+        font-size: 1.2em;
     }
-}
+} */
