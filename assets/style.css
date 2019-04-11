@@ -11,35 +11,8 @@ img {
 	height: 100%;
 }
 
-/* /* @media only screen and (max-width: 768px) { */
-/* .font-div {
-	/* margin-right: -1px; */
-/* width: 26%;
-} */
-
-/* .icon {
-	margin-right: -8px;
-} */
-
-/* #myName{
-        width: 100%;
+@media (max-width: 576px){
+    .tab{
+        display: none;
     }
-} */
-
-@media (max-width: 576px) {
-	.tab {
-		display: none;
-	}
 }
-/* display: flex; */
-/* align-items: center; */
-/* align-content: space-between;
-        align-items: center;
-        box-align: center;
-    }
-    
-
-    .icon{
-        font-size: 1.2em;
-    }
-} */
