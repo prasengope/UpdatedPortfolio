@@ -1,10 +1,14 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+	margin: 0;
+	padding: 0;
 }
 
 .bg-black {
 	background: black;
+}
+
+.my-name{
+    font-weight: 600;
 }
 
 .font-div {
@@ -13,22 +17,24 @@
 
 img {
 	width: 100%;
-	height: 100%;
+	height: 287px;
 }
 
-@media (max-width: 576px){
-    .tab{
-        display: none;
-    }
-    .font-div{
-        width: 25%;
-    }
+.fa-github,
+.fa-linkedin-in,
+.fa-twitter {
+	font-size: 20px;
+	padding: 10px;
+}
 
-    .icon{
-        font-size: 1.2em;
-    }
-
-    /* #myName{
-        width: 100%;
-    } */
+@media (max-width: 480px) {
+	.tab {
+		display: none;
+	}
+	.icon {
+		font-size: 1.2em;
+	}
+	.my-name {
+		font-size: 52px;
+	}
 }
